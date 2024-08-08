@@ -1,0 +1,19 @@
+/* ReservationsPage.css */
+
+.reservations-page {
+    padding: 20px;
+}
+
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reservations-table th, .reservations-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.reservations-table th {
+    background-color: #f4f4f4;
+}

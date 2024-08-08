@@ -1,0 +1,43 @@
+.homepage {
+    height: 100vh;
+    background-image: url('https://i.pinimg.com/564x/6f/79/8d/6f798d99ef4b1e488532d63969d7a51f.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:cursive;
+}
+
+.overlay {
+    background-color: rgba(241, 243, 245, 0.5);
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color:white;
+    background-color: #ec8910;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home-button:hover {
+    background-color: #ec8910;
+}

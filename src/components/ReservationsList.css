@@ -1,0 +1,45 @@
+/* Reservations List Page Styles */
+
+/* Style for the reservations list container */
+.reservations-list {
+    padding: 20px; /* Light gray background color for reservations list page */
+}
+
+/* Center the header text */
+.list-header h1 {
+    text-align: center;
+    color: #333; /* Darker text color for contrast */
+}
+
+/* Style for the reservations table */
+.reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff; /* White background for the table */
+}
+
+/* Table header and cells styling */
+.reservations-table th, .reservations-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.reservations-table th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+}
+
+/* Button styling */
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

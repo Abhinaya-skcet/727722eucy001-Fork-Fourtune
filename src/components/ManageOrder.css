@@ -1,0 +1,112 @@
+/* General styling for the Manage Orders page */
+.manage-orders {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom right, #f4f4f4, #e2e2e2); /* Gradient background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.manage-orders-header {
+    text-align: center;
+    padding: 20px;
+    background: #3b3b3b; /* Dark background for header */
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2; /* Light border */
+}
+
+.manage-orders-header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Orders section styling */
+.orders-section {
+    padding: 20px;
+}
+
+/* Cards container */
+.orders-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Gap between cards */
+    justify-content: center; /* Center cards horizontally */
+}
+
+/* Individual card styling */
+.order-card {
+    background: linear-gradient(to bottom right, #ffffff, #e6e6e6); /* Light gradient background for cards */
+    border: 1px solid #ccc; /* Light border */
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px; /* Fixed width for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Larger shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+    text-align: center;
+}
+
+.order-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+}
+
+.order-card-content h3 {
+    color: #333; /* Darker color for headings */
+    margin-top: 0;
+}
+
+.order-card-content p {
+    margin: 10px 0;
+    color: #555; /* Darker color for text */
+}
+
+.order-actions {
+    margin-top: 20px;
+}
+
+.order-actions button {
+    background-color: #007bff; /* Blue button for actions */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 14px; /* Adjust font size for readability */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Button styles for order actions */
+.order-actions button {
+    background: linear-gradient(to right, #4CAF50, #81C784); /* Gradient background */
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    border-radius: 25px; /* Rounded corners */
+    margin: 0 5px;
+    font-size: 14px; /* Adjust font size for readability */
+    transition: all 0.3s ease; /* Smooth transition for all properties */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.accept-button {
+    background: linear-gradient(to right, #28a745, #7dbd1b); /* Green gradient for accept */
+}
+
+.reject-button {
+    background: linear-gradient(to right, #dc3545, #e57373); /* Red gradient for reject */
+}
+
+/* Hover effects for buttons */
+.order-actions button:hover {
+    background: linear-gradient(to right, #45a049, #66c26f); /* Darker green gradient on hover for accept */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.reject-button:hover {
+    background: linear-gradient(to right, #c82333, #ef5350); /* Darker red gradient on hover for reject */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
